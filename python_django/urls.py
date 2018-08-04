@@ -24,5 +24,7 @@ urlpatterns = [
     url(r'^welcome', welcome),
     url(r'^login', include('login.urls')),
     url(r'^signup', include('signup.urls')),
-    url(r'^auth', check_login)
+    url(r'^login_auth', check_login),
+    url(r'^register_auth', check_register),
+    url(r'^dashboard', dashboard)
 ]
