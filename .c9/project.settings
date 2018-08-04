@@ -23,6 +23,7 @@
             "json()": {
                 "Django": {
                     "command": "",
+                    "debug": false,
                     "default": true,
                     "name": "Django",
                     "runner": "Django"
