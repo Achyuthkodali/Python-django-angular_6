@@ -18,3 +18,4 @@ data = cursor.fetchone()
 print (data)
 
 db.close()
+                     
